@@ -11,4 +11,10 @@ public class HelloController {
     public String info(){
         return "hello springboot info";
     }
+
+
+    @RequestMapping("test")
+    public String test(){
+        return "hello springboot test";
+    }
 }
